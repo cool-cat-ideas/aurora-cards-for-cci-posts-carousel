@@ -1,0 +1,11 @@
+{
+  "product": "Aurora Cards for WP Posts Carousel",
+  "openSourceLicense": "GPL-2.0-or-later",
+  "version": "1.0.0",
+  "documentationLanguage": "en",
+  "template": "aurora-cards",
+  "publicContracts": [
+    "wp_posts_carousel_templates_paths",
+    "wp_posts_carousel_slide_view_model"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "aurora-cards-for-wp-posts-carousel",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "scripts": {
+    "build:release": "npx -y node@23 scripts/build-release.mjs"
+  }
+}
