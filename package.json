@@ -1,0 +1,15 @@
+{
+  "name": "aurora-cards-for-cci-posts-carousel",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "scripts": {
+    "build:release": "npx -y node@23 scripts/build-release.mjs",
+    "format": "node scripts/quality/format.mjs",
+    "format:check": "node scripts/quality/format.mjs --check"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "esbuild": "0.28.2"
+  }
+}
