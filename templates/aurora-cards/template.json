@@ -2,17 +2,33 @@
   "name": "aurora-cards",
   "title": "Aurora Cards",
   "description": "Vivid universal cards for editorial content and WooCommerce products, with a soft aurora backdrop and high-contrast actions.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Cool Cat Ideas",
   "author_url": "https://coolcatideas.com/",
-  "tags": ["free", "universal", "blog", "products", "woocommerce", "aurora"],
+  "tags": [
+    "free",
+    "universal",
+    "blog",
+    "products",
+    "woocommerce",
+    "aurora"
+  ],
   "render": "views/template.php",
   "style": "assets/css/style.css",
   "screenshot": "screenshot.png",
   "supports": {
-    "renderers": ["php"],
-    "engines": ["owl-carousel"],
-    "itemTypes": ["post", "page", "product", "custom"],
+    "renderers": [
+      "php"
+    ],
+    "engines": [
+      "owl-carousel"
+    ],
+    "itemTypes": [
+      "post",
+      "page",
+      "product",
+      "custom"
+    ],
     "manualComposition": true,
     "connectedImages": false,
     "videoSlides": false

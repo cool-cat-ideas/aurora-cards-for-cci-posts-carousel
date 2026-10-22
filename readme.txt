@@ -4,7 +4,7 @@ Tags: carousel, template, blog, woocommerce, products
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,10 @@ That is the base plugin's product presentation. Live store details come from the
 2. Optional product presentation with CCI Posts Carousel All In One Pro: current prices, sale details and add-to-cart actions.
 
 == Changelog ==
+
+= 1.0.1 =
+* Respect the image fitting setting in CCI Posts Carousel All In One 2.1.1.
+* Keep the whole image visible on hover when Show entire image is selected.
 
 = 1.0.0 =
 * Initial release of the Aurora Cards template for posts, pages, manual slides and product links.

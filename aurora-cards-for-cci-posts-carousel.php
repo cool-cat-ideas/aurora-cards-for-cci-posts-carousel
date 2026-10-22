@@ -3,7 +3,7 @@
  * Plugin Name: Aurora Cards for CCI Posts Carousel All In One
  * Plugin URI: https://coolcatideas.com/products/cci-posts-carousel-aurora-cards/
  * Description: Gives posts, pages and linked WooCommerce products one consistent Aurora card style inside CCI Posts Carousel All In One.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Cool Cat Ideas
  * Author URI: https://coolcatideas.com/
  * Text Domain: aurora-cards-for-cci-posts-carousel

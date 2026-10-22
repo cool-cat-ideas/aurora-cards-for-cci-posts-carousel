@@ -63,14 +63,14 @@
 .cci-wpc-aurora-cards-template-theme .cci-wpc-aurora-media img {
   display: block;
   height: 100%;
-  object-fit: cover;
+  object-fit: var(--wpc-image-fit, cover);
   transition: transform 280ms ease;
   width: 100%;
 }
 
 .cci-wpc-aurora-cards-template-theme .cci-wpc-aurora-card:hover .cci-wpc-aurora-media img,
 .cci-wpc-aurora-cards-template-theme .cci-wpc-aurora-card:focus-within .cci-wpc-aurora-media img {
-  transform: scale(1.035);
+  transform: scale(var(--wpc-image-hover-scale, 1.035));
 }
 
 .cci-wpc-aurora-cards-template-theme .cci-wpc-aurora-placeholder {
