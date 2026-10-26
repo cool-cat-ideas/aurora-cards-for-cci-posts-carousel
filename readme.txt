@@ -1,5 +1,5 @@
 === Aurora Cards for CCI Posts Carousel All In One ===
-Contributors: coolcatideas
+Contributors: coolcatideas, teastudiopl
 Tags: carousel, template, blog, woocommerce, products
 Requires at least: 6.0
 Tested up to: 7.1
@@ -28,7 +28,7 @@ For public questions and bug reports, use [GitHub issues](https://github.com/coo
 
 == Installation ==
 
-1. Install and activate CCI Posts Carousel All In One.
+1. Install and activate [CCI Posts Carousel All In One](https://wordpress.org/plugins/wp-posts-carousel/) version 2.0.0 or newer.
 2. Install and activate this plugin.
 3. Edit a saved carousel and choose **Aurora Cards** under **Template**.
 4. Save and check the carousel on desktop and mobile.

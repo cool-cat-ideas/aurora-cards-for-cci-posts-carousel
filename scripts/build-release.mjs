@@ -21,6 +21,8 @@ const versionMatch = pluginContents.match(/^\s*\*\s*Version:\s*(.+)$/m);
 const version = versionMatch ? versionMatch[1].trim() : '';
 
 if (!version) throw new Error(`Could not read plugin version from ${pluginFile}`);
+const textDomain = pluginContents.match(/^\s*\*\s*Text Domain:\s*(.+)$/m)?.[1].trim();
+if (textDomain !== slug) throw new Error(`Text domain must match WordPress.org slug: ${slug}`);
 
 const releases = process.env.CCI_RELEASE_DIR
   ? resolve(process.env.CCI_RELEASE_DIR)
