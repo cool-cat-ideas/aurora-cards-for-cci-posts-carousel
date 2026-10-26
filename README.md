@@ -1,8 +1,8 @@
-<a href="https://coolcatideas.com/products/cci-posts-carousel-all-in-one/"><img src=".github/assets/cci-posts-carousel-logo.png" alt="Aurora Cards for CCI Posts Carousel All In One" width="460"></a>
+<a href="https://coolcatideas.com/products/cci-posts-carousel-all-in-one/"><img src=".github/assets/cci-posts-carousel-logo.png" alt="Aurora Cards for CCI Posts Carousel" width="460"></a>
 
-# Aurora Cards for CCI Posts Carousel All In One
+# Aurora Cards for CCI Posts Carousel
 
-Give posts, pages and product links a consistent card layout with a large image, title and excerpt. Aurora Cards adds a template to CCI Posts Carousel All In One and uses its existing content, navigation and responsive settings.
+Give posts, pages and product links a consistent card layout with a large image, title and excerpt. Aurora Cards adds a template to CCI Posts Carousel and uses its existing content, navigation and responsive settings.
 
 [Product and download](https://coolcatideas.com/products/cci-posts-carousel-aurora-cards/) · [Template guide](docs/1.0.0/template-guide.md) · [Support](https://github.com/cool-cat-ideas/aurora-cards-for-cci-posts-carousel/issues)
 
@@ -16,13 +16,13 @@ Aurora Cards works without Pro or a license key. Posts, pages, manual slides and
 
 ### Add optional WooCommerce details with Pro
 
-The main CCI Posts Carousel All In One Pro package can supply current prices, ratings, sale details and cart actions. These details are optional; Aurora Cards has no separate paid edition.
+The main CCI Posts Carousel Pro package can supply current prices, ratings, sale details and cart actions. These details are optional; Aurora Cards has no separate paid edition.
 
-![Aurora Cards product carousel with optional WooCommerce details supplied by CCI Posts Carousel All In One Pro](.wordpress-org/screenshot-2.png)
+![Aurora Cards product carousel with optional WooCommerce details supplied by CCI Posts Carousel Pro](.wordpress-org/screenshot-2.png)
 
 ## Use the template
 
-1. Install and activate CCI Posts Carousel All In One 2.0.0 or newer.
+1. Install and activate CCI Posts Carousel 2.0.0 or newer.
 2. Install and activate Aurora Cards.
 3. Edit a saved carousel and choose **Aurora Cards** under **Template**.
 4. Save and check the carousel on desktop and mobile.

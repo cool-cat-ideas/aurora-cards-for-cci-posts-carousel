@@ -4,7 +4,7 @@
 
 - Initial release of the Aurora Cards universal template.
 - Added blog, page, custom item and WooCommerce product presentation.
-- Added optional WooCommerce prices, ratings, sale details and add-to-cart actions supplied by CCI Posts Carousel All In One Pro. Aurora Cards works with the base carousel plugin without Pro.
+- Added optional WooCommerce prices, ratings, sale details and add-to-cart actions supplied by CCI Posts Carousel Pro. Aurora Cards works with the base carousel plugin without Pro.
 - Added linked category and tag archives with complete hover and keyboard focus states.
 - Refined carousel spacing and card shadows so slide shadows remain distinct.
 - Added Owl navigation and pagination styling for both `div` and `button` control markup.

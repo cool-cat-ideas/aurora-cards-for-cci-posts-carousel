@@ -1,11 +1,11 @@
 # Aurora Cards template guide
 
-Aurora Cards is a standalone no-cost template package for CCI Posts Carousel All In One.
+Aurora Cards is a standalone no-cost template package for CCI Posts Carousel.
 
 ## Use it
 
-1. Install and activate CCI Posts Carousel All In One.
-2. Install and activate Aurora Cards for CCI Posts Carousel All In One.
+1. Install and activate CCI Posts Carousel.
+2. Install and activate Aurora Cards for CCI Posts Carousel.
 3. Open a carousel and select **Aurora Cards** under **Template**.
 4. Use it with posts, pages, manual items or products.
 
