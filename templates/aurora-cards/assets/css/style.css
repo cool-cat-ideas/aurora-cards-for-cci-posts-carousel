@@ -432,3 +432,29 @@
     transition: none;
   }
 }
+
+/* Vertical Swiper keeps Aurora's card surface and colors in a narrow column. */
+.cci-wpc-aurora-cards-template-theme[data-wpc-direction='vertical'] {
+  padding: 20px;
+}
+.cci-wpc-aurora-cards-template-theme [data-wpc-direction='vertical'] .cci-wpc-aurora-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 0;
+}
+.cci-wpc-aurora-cards-template-theme [data-wpc-direction='vertical'] .cci-wpc-aurora-media {
+  height: 180px;
+  flex: 0 0 auto;
+}
+.cci-wpc-aurora-cards-template-theme [data-wpc-direction='vertical'] .cci-wpc-aurora-body {
+  min-height: 0;
+  flex: 1;
+}
+.cci-wpc-aurora-cards-template-theme [data-wpc-direction='vertical'] .cci-wpc-aurora-title {
+  font-size: 20px;
+  line-height: 1.3;
+}
+.cci-wpc-aurora-cards-template-theme [data-wpc-direction='vertical'] .cci-wpc-aurora-footer {
+  margin-top: auto;
+}
