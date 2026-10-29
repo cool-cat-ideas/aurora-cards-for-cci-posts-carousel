@@ -24,10 +24,15 @@ The main CCI Posts Carousel Pro package can supply current prices, ratings, sale
 
 1. Install and activate CCI Posts Carousel 2.0.0 or newer.
 2. Install and activate Aurora Cards.
-3. Edit a saved carousel and choose **Aurora Cards** under **Template**.
-4. Save and check the carousel on desktop and mobile.
+3. Open **CCI Posts Carousel All In One > Dashboard** and create a carousel or edit an existing one.
+4. Under **Query**, choose an automatic selection of published content, or choose **Manual slides** and add items under **Slides**.
+5. Under **General**, use the **PHP** renderer and **Owl Carousel** engine. Select **Aurora Cards** under **Design > Template**.
+6. Set **Status** to **Published** and save.
+7. Add the **CCI Posts Carousel All In One** block to a page and select your saved carousel, or paste its generated shortcode into a **Shortcode** block. Publish the page and check the result.
 
-If the template is missing, confirm that both plugins are active. Aurora Cards adds a template to the main plugin; it does not display a carousel on its own.
+If the template is missing, confirm that both plugins are active and the main plugin is version 2.0.0 or newer, then reload the editor. If the carousel is empty, check its publication status and content selection. A fresh site needs published content or manual slides. Aurora Cards adds a template to the main plugin; it does not create a carousel or add a separate settings page.
+
+Add featured images and excerpts to your posts. Adjust **General > Responsive items** to fit the number of cards to the page width, and use **Design** to choose visible card fields. Aurora Cards supplies a PHP/Owl template; it does not supply a Swiper/React template.
 
 ## Customize and extend
 

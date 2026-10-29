@@ -24,16 +24,25 @@ Content selection, order, navigation and responsive settings stay in the main ca
 
 = Support =
 
-For public questions and bug reports, use [GitHub issues](https://github.com/cool-cat-ideas/aurora-cards-for-cci-posts-carousel/issues). For a private question, open [your customer panel](https://coolcatideas.com/en/account/services/), choose Contact the team, then General question. Licensed customers can choose Technical support. Your conversations contains replies and follow-up messages.
+For public questions and bug reports, use [GitHub issues](https://github.com/cool-cat-ideas/aurora-cards-for-cci-posts-carousel/issues). For a private question, open [your customer panel](https://coolcatideas.com/account/services/), choose Contact the team, then General question. Licensed customers can choose Technical support. Replies and follow-up messages stay in the same conversation.
 
 == Installation ==
 
 1. Install and activate [CCI Posts Carousel](https://wordpress.org/plugins/wp-posts-carousel/) version 2.0.0 or newer.
-2. Install and activate this plugin.
-3. Edit a saved carousel and choose **Aurora Cards** under **Template**.
-4. Save and check the carousel on desktop and mobile.
+2. Go to **Plugins > Add New Plugin > Upload Plugin**, select the Aurora Cards ZIP, install it and activate it. If you installed Aurora Cards from the plugin directory, activate it from **Plugins > Installed Plugins**.
+3. Open **CCI Posts Carousel All In One > Dashboard** and create a carousel or edit an existing one.
+4. Under **Query**, choose the content type and filters for an automatic selection, or choose **Manual slides** and add your content under **Slides**. A fresh WordPress site needs published content or manual slides before the carousel can display cards.
+5. Under **General**, use the **PHP** renderer and **Owl Carousel** engine. Then select **Aurora Cards** under **Design > Template**.
+6. Set **Status** to **Published** and save the carousel.
+7. Add the **CCI Posts Carousel All In One** block to a page and select the saved carousel, or paste its generated shortcode into a **Shortcode** block. Publish or update the page, then open it on the front end.
 
-If Aurora Cards is missing from the template list, confirm that Aurora Cards 1.0.0 or newer and CCI Posts Carousel 2.0.0 or newer are active.
+If Aurora Cards is missing from the template list, confirm in **Plugins > Installed Plugins** that both Aurora Cards and CCI Posts Carousel 2.0.0 or newer are active. Reload the carousel editor after activating either plugin. Aurora Cards adds a template; activating it does not create or publish a carousel automatically.
+
+= Configure the cards =
+
+* Add featured images and excerpts to your posts. Aurora Cards displays a placeholder when no featured image is available.
+* Under **General > Responsive items**, adjust how many cards are visible. Use fewer cards when the carousel sits in a narrow page column. Navigation and autoplay settings are also under **General**.
+* Under **Design**, choose which titles, descriptions, images, categories and tags to show.
 
 == Frequently Asked Questions ==
 
@@ -44,6 +53,18 @@ No. Posts, pages, manual slides and product links work with the base CCI Posts C
 = Can I use Aurora Cards without CCI Posts Carousel? =
 
 No. It adds a template to CCI Posts Carousel and does not render a carousel on its own.
+
+= Which carousel engine does Aurora Cards support? =
+
+Use the PHP renderer with Owl Carousel, selected under **General** in the main carousel editor. Aurora Cards does not provide a Swiper/React template.
+
+= Why is my carousel empty? =
+
+Check that the carousel is published and its automatic query matches published content. Broaden the selected categories or post types if needed. For a manual carousel, add slides under **Slides**. Make sure the page block or shortcode refers to the saved carousel you edited.
+
+= Where do I change the content and appearance? =
+
+Use the main CCI Posts Carousel editor. **Query** and **Slides** control the content; **Design > Template** selects Aurora Cards. The main plugin also controls visible fields, navigation and responsive settings. Aurora Cards does not add a separate settings page.
 
 = Why do product cards show links instead of prices? =
 
@@ -57,6 +78,8 @@ That is the base plugin's product presentation. Live store details come from the
 == Changelog ==
 
 = 1.0.1 =
+* Clarify installation, content selection and publishing instructions.
+* Explain missing dependencies and warn when CCI Posts Carousel is older than 2.0.0.
 * Respect the image fitting setting in CCI Posts Carousel 2.1.1.
 * Keep the whole image visible on hover when Show entire image is selected.
 

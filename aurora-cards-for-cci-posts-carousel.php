@@ -7,7 +7,7 @@
  * Author: Cool Cat Ideas
  * Author URI: https://coolcatideas.com/
  * Text Domain: aurora-cards-for-cci-posts-carousel
- * Requires at least: 6.0
+ * Requires at least: 6.2
  * Requires PHP: 7.4
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -38,13 +38,19 @@ if ( ! class_exists( 'WP_Posts_Carousel_Aurora_Cards_Addon', false ) ) {
 		}
 
 		public function dependency_notice() {
-			if ( defined( 'WP_POSTS_CAROUSEL_VERSION' ) || ! current_user_can( 'activate_plugins' ) ) {
+			if ( ! current_user_can( 'activate_plugins' ) ) {
+				return;
+			}
+
+			if ( defined( 'WP_POSTS_CAROUSEL_VERSION' ) && version_compare( (string) WP_POSTS_CAROUSEL_VERSION, '2.0.0', '>=' ) ) {
 				return;
 			}
 
 			echo '<div class="notice notice-warning"><p>'
-			. esc_html__( 'Aurora Cards for CCI Posts Carousel requires CCI Posts Carousel 2.0.0 or newer.', 'aurora-cards-for-cci-posts-carousel' )
-			. '</p></div>';
+			. esc_html__( 'Aurora Cards requires CCI Posts Carousel 2.0.0 or newer. Install and activate the main plugin, or update it if you have an older version. Then open the carousel editor and select Aurora Cards under Design > Template.', 'aurora-cards-for-cci-posts-carousel' )
+			. ' <a href="' . esc_url( admin_url( 'plugins.php' ) ) . '">'
+			. esc_html__( 'Manage plugins', 'aurora-cards-for-cci-posts-carousel' )
+			. '</a></p></div>';
 		}
 	}
 

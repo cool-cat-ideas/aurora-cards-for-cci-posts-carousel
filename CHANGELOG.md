@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1
+
+- Respect the main carousel's image fitting setting and keep the whole image visible on hover when selected.
+- Expand the installation guide with content selection, publication and page embedding steps.
+- Clarify support wording and troubleshooting for missing templates and empty carousels.
+- Warn when the main carousel plugin is missing, inactive or older than 2.0.0.
+- Align the WordPress requirement in the plugin header with the readme.
+
 ## 1.0.0
 
 - Initial release of the Aurora Cards universal template.
